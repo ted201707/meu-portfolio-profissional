@@ -1,114 +1,251 @@
-<!DOCTYPE html> <html lang="pt-BR"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Meu Portfólio Profissional</title> <link rel="stylesheet" href="style.css"> </head> <body>
-<header>
-    <nav>
-        <h1>Tomás Enrique</h1>
-        <div>
-            <a href="#sobre">Sobre</a>
-            <a href="#formacao">Formação</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </div>
-    </nav>
-</header>
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-<main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <section class="hero">
-        <p class="tag">PORTFÓLIO PROFISSIONAL</p>
-        <h2>Olá, eu sou Tomás.</h2>
-        <p>
-            Sou estudante de Analise e Desenvolvivento de sistemas e estou desenvolvendo
-            minhas habilidades profissionais e tecnológicas.
-        </p>
-    </section>
+    <title>Tomás Enrique | Portfólio Profissional</title>
 
-    <section id="sobre">
-        <h2>Sobre mim</h2>
-        <p>
-            Sou estudante interessado em tecnologia, criatividade
-            e desenvolvimento profissional. Este portfólio reúne
-            alguns dos meus estudos, projetos e experiências.
-        </p>
-    </section>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <section id="formacao">
-        <h2>Formação</h2>
+<body>
 
-        <div class="project">
-            <h3>Analise e Desenvolvimento de sistemas</h3>
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <h1>Tomás Enrique</h1>
+
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <p class="tag">PORTFÓLIO PROFISSIONAL</p>
+
+            <h2>Olá, eu sou <span>Tomás Enrique.</span></h2>
+
             <p>
-                Universidade Positivo — 2026 até o momento.
+                Sou estudante de Análise e Desenvolvimento de Sistemas,
+                interessado em tecnologia, desenvolvimento de software
+                e criação de soluções digitais.
             </p>
-            <p>
-                Durante minha formação, desenvolvo conhecimentos
-                técnicos e profissionais relacionados à minha área.
-            </p>
-        </div>
-    </section>
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-
-        <div class="cards">
-            <div class="card">
-                <h3>Git e GitHub</h3>
-                <p>
-                    Versionamento, branches, commits e Pull Requests.
-                </p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="button">Ver projetos</a>
+                <a href="#contato" class="button secondary">Entrar em contato</a>
             </div>
 
-            <div class="card">
-                <h3>HTML e CSS</h3>
-                <p>
-                    Criação e estilização de páginas web.
-                </p>
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre">
+
+            <p class="section-tag">SOBRE MIM</p>
+
+            <h2>Quem sou eu?</h2>
+
+            <p class="section-text">
+                Sou estudante de Análise e Desenvolvimento de Sistemas,
+                interessado em tecnologia, criatividade e desenvolvimento
+                profissional. Busco constantemente aprimorar meus
+                conhecimentos e transformar o aprendizado em projetos
+                práticos.
+            </p>
+
+        </section>
+
+
+        <!-- FORMAÇÃO -->
+        <section id="formacao">
+
+            <p class="section-tag">FORMAÇÃO</p>
+
+            <h2>Minha formação</h2>
+
+            <div class="project">
+
+                <div class="project-icon">🎓</div>
+
+                <div>
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+
+                    <p class="highlight">
+                        Universidade Positivo — 2026 até o momento
+                    </p>
+
+                    <p>
+                        Durante minha formação, desenvolvo conhecimentos
+                        técnicos e profissionais relacionados ao
+                        desenvolvimento de software, tecnologia e
+                        resolução de problemas.
+                    </p>
+                </div>
+
             </div>
 
-            <div class="card">
-                <h3>Design</h3>
-                <p>
-                    Organização visual, criatividade e comunicação.
-                </p>
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+
+            <p class="section-tag">HABILIDADES</p>
+
+            <h2>O que estou aprendendo</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="card-icon">💻</div>
+
+                    <h3>Git e GitHub</h3>
+
+                    <p>
+                        Versionamento de código, commits, branches,
+                        Pull Requests e colaboração em projetos.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-icon">🌐</div>
+
+                    <h3>HTML e CSS</h3>
+
+                    <p>
+                        Criação de páginas web, estruturação de conteúdo
+                        e desenvolvimento de interfaces responsivas.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+
+                    <h3>Design</h3>
+
+                    <p>
+                        Organização visual, criatividade, comunicação
+                        e desenvolvimento de interfaces.
+                    </p>
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section id="projetos">
-        <h2>Projetos</h2>
+        </section>
 
-        <div class="project">
-            <h3>Portfólio Profissional</h3>
-            <p>
-                Projeto desenvolvido para praticar Git, GitHub,
-                HTML e CSS.
+
+        <!-- PROJETOS -->
+        <section id="projetos">
+
+            <p class="section-tag">PROJETOS</p>
+
+            <h2>Meus projetos</h2>
+
+            <div class="project">
+
+                <div>
+                    <h3>Portfólio Profissional</h3>
+
+                    <p>
+                        Projeto desenvolvido para praticar conceitos de
+                        Git, GitHub, HTML e CSS, aplicando versionamento
+                        e organização de código.
+                    </p>
+
+                    <a
+                        href="https://github.com/ted201707/meu-portfolio-profissional"
+                        target="_blank"
+                        class="project-link">
+                        Ver no GitHub →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="project">
+
+                <div>
+                    <h3>Portfólio Online</h3>
+
+                    <p>
+                        Versão online do meu portfólio profissional,
+                        desenvolvida utilizando HTML e CSS.
+                    </p>
+
+                    <a
+                        href="https://ted201707.github.io/meu-portfolio-profissional/"
+                        target="_blank"
+                        class="project-link">
+                        Acessar projeto →
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section id="contato">
+
+            <p class="section-tag">CONTATO</p>
+
+            <h2>Vamos conversar?</h2>
+
+            <p class="section-text">
+                Você pode conhecer mais sobre meu trabalho e minha
+                trajetória profissional através dos links abaixo.
             </p>
-        </div>
 
-        <div class="project">
-            <h3>Projeto Acadêmico</h3>
-            <p>
-                https://ted201707.github.io/meu-portfolio-profissional/
-            </p>
-        </div>
-    </section>
+            <div class="contact-links">
 
-    <section id="contato">
-        <h2>Contato</h2>
+                <a
+                    href="https://github.com/ted201707"
+                    target="_blank">
+                    GitHub
+                </a>
+
+                <!-- Coloque seu LinkedIn aqui -->
+                <a
+                    href="#"
+                    target="_blank">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
 
         <p>
-            LinkedIn: [SEU LINKEDIN]
+            © 2026 Tomás Enrique — Portfólio Profissional
         </p>
 
-        <p>
-            GitHub: [SEU LINK DO GITHUB]
-        </p>
-    </section>
+    </footer>
 
-</main>
+</body>
 
-<footer>
-    <p>© 2026 [SEU NOME] — Portfólio Profissional</p>
-</footer>
-
-</body> </html>
+</html>
+```
